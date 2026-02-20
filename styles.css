@@ -1,0 +1,21 @@
+* {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+#addBtn {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: greenyellow;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3, h4 {
+  display: flex;
+  justify-content: center;
+}
