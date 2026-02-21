@@ -23,7 +23,7 @@ A lightweight Chrome extension that lets you block distracting websites by enter
 1. Click the extension icon to open the popup.
 2. Enter a domain (e.g. `youtube.com`) and click **Block** or press **Enter**.
 3. The site will be added to your blocklist and immediately blocked.
-4. To unblock a site, click the **✕** button next to it in the list.
+4. To unblock a site, click the red **Remove** button next to it in the list.
 
 ## Project Structure
 
