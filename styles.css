@@ -1,4 +1,64 @@
-* {
+html, body {
+  width: 340px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  display: block;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  margin: none;
+  cursor: pointer;
+}
+
+h3, h4 {
+  display: flex;
+  justify-content: center;
+}
+
+#BlockedList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+#BlockedList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#BlockedList li .removeBtn {
+  width: auto;
+  background-color: #dc3545;
+  padding: 6px 12px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+#BlockedList li .removeBtn:hover {
+  background-color: #c82333;
+}* {
   font-family: Arial, sans-serif;
   width: 300px;
   padding: 10px;
@@ -18,4 +78,5 @@ button {
 h3, h4 {
   display: flex;
   justify-content: center;
+
 }
