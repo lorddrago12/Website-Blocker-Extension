@@ -53,3 +53,7 @@ The redirect URL when visiting a blocked site is set in `content.js`. Edit the U
 ## License
 
 See [LICENSE](LICENSE) for details.
+
+## Preview
+
+<img width="353" height="249" alt="image" src="https://github.com/user-attachments/assets/2ec096af-f0fa-46dd-8434-65522abe5de4" />
